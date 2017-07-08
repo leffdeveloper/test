@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/leffdeveloper/test/issues"
   },
-  "homepage": "https://github.com/leffdeveloper/test#readme"
+  "homepage": "https://github.com/leffdeveloper/test#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  }
 }
