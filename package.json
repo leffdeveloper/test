@@ -4,7 +4,8 @@
   "description": "none",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,11 @@
     "url": "https://github.com/leffdeveloper/test/issues"
   },
   "homepage": "https://github.com/leffdeveloper/test#readme",
-  "dependencies": {
+  "depenpmndencies": {
     "jquery": "^3.2.1"
   },
   "devDependencies": {
+    "eslint": "^4.2.0",
     "webpack": "^3.1.0"
   }
 }
